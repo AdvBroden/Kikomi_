@@ -1,0 +1,36 @@
+-- To Activate Kikomi you must Create a Local Script inside of StarterPlayer > StarterCharacterScripts
+
+local ServerScriptS = game:GetService("ServerScriptService")
+local K_MV = ServerScriptS:WaitForChild("Kikomi_"):WaitForChild("Version")
+print(K_MV.Value)
+
+-- For Modders, Enable the Value; "Modded".
+
+--[[
+    
+  --// Explaination on the 'Modded' Boolvalue //--
+  
+  Modded Values will Disable all Scripts containing Traces of The Antivirus'. The Antivirus is used to
+  prevent hackers from Changing the Script's Codes or Animations. The Antivirus will Primarily Attempt
+  to check if the AnimationId's have been Set to an Unknown Substatute, When Said Code is Changed, 
+  Kikomi will Automatically Destroy itself with a print in output, 'Antivirus Detected Problem'. 
+  Please note that the Antivirus will not be activated and Kikomi is now vulnerable to Hackers or 
+  In-game Virus'.
+  
+  The Antivirus being Disabled allows the Script to enable changes from the Code without Kikomi using it's
+  Virus Detection Sequence.
+  
+  --// Troubleshooting //--
+  
+  1. If the Version value is matched to the GithubVersion then You may continue to run the script.
+     If not then you must reinstall the Latest Version of Kikomi Into your Game to Ensure there
+     are not any current errors in the Script.
+     
+  2. If the Version is Matched to the GithubVersion and No Inputs are Coming into the Output Menu
+     Check if the Script is Active. Check in Kikomi > Settings > Enabled, If the value is set to false
+     then Change the Value to True
+     
+  3. If You are modding Kikomi, Then Read Over your Scripts for Errors or Check in the Output Menu
+     For Any Mispelled Lines of Code or Errors in said Code.
+     
+--]]
